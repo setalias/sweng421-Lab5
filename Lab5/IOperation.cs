@@ -8,6 +8,6 @@ namespace Lab5
 {
     interface IOperation
     {
-        double perform(double value);
+        double perform(Input value);
     }
 }

@@ -1,0 +1,5 @@
+Subtract
+Product
+Power
+Sum
+Log

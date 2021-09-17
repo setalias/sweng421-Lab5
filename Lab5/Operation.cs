@@ -12,7 +12,7 @@ namespace Lab5
 
         private static double value = 6;
 
-        public abstract double perform(double value);
+        public abstract double perform(Input value);
 
         public static double Value
         {

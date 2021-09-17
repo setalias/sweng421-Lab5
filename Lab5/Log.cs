@@ -9,9 +9,9 @@ namespace Lab5
 {
     class Log : Operation
     {
-        public override double perform(double value = 0)
+        public override double perform(Input value)
         {
-            return Math.Log(Operation.Value);
+            return Math.Log10(Operation.Value);
         }
     }
 }

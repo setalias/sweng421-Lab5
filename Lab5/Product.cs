@@ -8,9 +8,9 @@ namespace Lab5
 {
     class Product : Operation
     {
-        public override double perform(double value)
+        public override double perform(Input value)
         {
-            return Operation.Value *= value;
+            return Operation.Value *= value.getValue();
         }
     }
 }

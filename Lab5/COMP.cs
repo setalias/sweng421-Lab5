@@ -14,16 +14,29 @@ namespace Lab5
         [STAThread]
         static void Main()
         {
-            /* Application.EnableVisualStyles();
-             Application.SetCompatibleTextRenderingDefault(false);
-             Application.Run(new Form1()); */
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+
+            
+
+
+
+
+
 
             IOperationFactory iof = new OperationFactory();
-            IOperation newOperation = iof.createOperation("Log");
-            Console.WriteLine(newOperation.perform(2));
+            IOperation newOperation = iof.createOperation("Product");
+            Console.WriteLine(newOperation.perform(new Input(2)));
 
         }
+
+        static void Operation() { }
+
+
     }
+
+
 
     
 
